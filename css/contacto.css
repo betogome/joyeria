@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: "Georgia", serif;
+  background: linear-gradient(135deg, #fdfcfb 0%, #d4af37 100%);
+  color: #333;
+}
+
+header {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: linear-gradient(135deg, #d4af37 0%, #fdfcfb 100%);
+  color: #fff;
+}
+
+h1, h2 {
+  margin: 0.5rem 0;
+}
+
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.formulario-contacto form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.campo label {
+  font-weight: bold;
+}
+
+.campo input, 
+.campo textarea {
+  width: 100%;
+  padding: 0.7rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn-enviar {
+  background-color: #d4af37;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  padding: 0.8rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn-enviar:hover {
+  background-color: #b8962e;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #333;
+  color: #fff;
+  margin-top: 2rem;
+}
+.volver-atras {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.btn-volver {
+  display: inline-block;
+  background-color: #444;
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s, transform 0.2s;
+}
+
+
